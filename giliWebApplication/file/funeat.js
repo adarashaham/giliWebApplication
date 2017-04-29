@@ -1,13 +1,6 @@
-﻿$(document).ready(function () {
-    $('#ddmenu').load('funeat.html');
+﻿
+$(document).ready(function(){
+        $("#show").click(function(){
+        $("p").show();
+    });
 });
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-

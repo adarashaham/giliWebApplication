@@ -98,6 +98,7 @@
     <Content Include="file\articles.html" />
     <Content Include="file\contact.html" />
     <Content Include="file\homel.html" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="imgs\Facebook-create.png" />
     <Content Include="imgs\הורד.jpg" />
     <Content Include="imgs\הורד.png" />
@@ -158,6 +159,8 @@
     <Content Include="scripts\typeahead.bundle.js" />
     <Content Include="scripts\typeahead.bundle.min.js" />
     <Content Include="scripts\typeahead.jquery.js" />
+    <Content Include="testsite\JavaScript.js" />
+    <Content Include="testsite\StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -170,7 +173,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="testsite\App_LocalResources\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
